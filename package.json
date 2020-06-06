@@ -1,0 +1,19 @@
+{
+  "name": "semantic-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amykapernick/fender_fundamentals-semantic_html.git"
+  },
+  "author": "Amy Kapernick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amykapernick/fender_fundamentals-semantic_html/issues"
+  },
+  "homepage": "https://github.com/amykapernick/fender_fundamentals-semantic_html#readme"
+}
