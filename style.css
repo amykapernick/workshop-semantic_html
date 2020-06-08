@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	margin: 0 auto;
+	width: 90vw;
+	max-width: 1000px;
+}
+
+img {
+	width: 200px;
+}
+
+table, td, th {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 5px;
+}
+
+th {
+	text-align: left;
+}
+
+thead th {
+	font-size: 1.1em;
+	text-align: center;
+	padding: 10px;
+}
+
+form {
+	max-width: 400px;
+}
+
+form input, form label {
+	display: block;
+	width: 100%;
+}
+
+form label {
+	padding: 10px 0;
+}
+
+button {
+	margin-top: 20px;
+	padding: 5px 10px;
+}
+
+footer {
+	text-align: center;
+	padding: 50px;
+}
