@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve --formats=html,css,jpg"
+    "start": "npx @11ty/eleventy --serve --formats=html,css,jpg,png,webp"
   },
   "repository": {
     "type": "git",
