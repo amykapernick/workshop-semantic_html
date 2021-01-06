@@ -4,16 +4,23 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve --formats=html,css,jpg,png,webp"
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amykapernick/fender_fundamentals-semantic_html.git"
   },
-  "author": "Amy Kapernick",
+  "author": "Amy Kapernick <amy@kapers.dev> (https://amyskapers.dev)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/amykapernick/fender_fundamentals-semantic_html/issues"
+  "staticFiles": {
+    "staticPath": [
+      "img",
+      "fonts"
+    ],
+    "watcherGlob": "**"
   },
-  "homepage": "https://github.com/amykapernick/fender_fundamentals-semantic_html#readme"
+  "dependencies": {
+    "parcel": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.5.0"
+  }
 }
