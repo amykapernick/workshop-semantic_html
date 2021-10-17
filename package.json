@@ -2,7 +2,6 @@
   "name": "semantic-html",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
   "scripts": {
     "start": "parcel index.html"
   },
@@ -20,7 +19,7 @@
     "watcherGlob": "**"
   },
   "dependencies": {
-    "parcel": "^1.12.4",
-    "parcel-plugin-static-files-copy": "^2.5.0"
+    "parcel": "^2.0.0",
+    "parcel-plugin-static-files-copy": "^2.6.0"
   }
 }
